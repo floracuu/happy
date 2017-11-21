@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: #eee;           
+}
+#lei{
+    margin: 80px 20px 0px 20px;
+    background-color: white;
+}
+#leis{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+main figure{
+    flex-basis: 170px;
+    margin: 5px;
+    flex-grow: 1;
+}
+figcaption{
+    padding: 0 20px 0 40px;
+}
+
